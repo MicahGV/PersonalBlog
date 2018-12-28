@@ -26,4 +26,3 @@ collections: # A list of collections the CMS should be able to edit
           fields: 
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Body", name: "body", widget: "markdown"}
-        - file: "content"
