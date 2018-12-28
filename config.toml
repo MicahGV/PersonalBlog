@@ -1,0 +1,33 @@
+baseurl = "/"
+title = "VigMic"
+copyright = "Copyright &copy; 2018 - Micah Vigeant"
+canonifyurls = true
+theme = "kiera"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "Micah"
+    github = "https://github.com/MicahGV"
+    gitlab = ""
+    linkedin = "https://www.linkedin.com/in/micah-vigeant/"
+    facebook = ""
+    twitter = ""
+    instagram = ""
+
+[params]
+    tagline = "A blog about computing and stuff"
+
+
+[[menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/" #URL address
+[[menu.main]]
+    name = "Posts"
+    weight = 20
+    url = "/posts/"
