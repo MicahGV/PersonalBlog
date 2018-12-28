@@ -22,7 +22,7 @@ The links are in order of what I looked at first and did
 
 _Quick Side note: In the first link Add the kiera theme as a git submodule. You'll need to do that, so you can actually make a git repo with it in it. Like so,_
 
-```
+```gitconfig
 cd themes
 git add submodule https://github.com/avianto/hugo-kiera kiera
 ```

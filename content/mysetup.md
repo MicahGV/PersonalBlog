@@ -14,7 +14,7 @@ This will be the place where I put all my Set ups for you all to behold either i
 A Better git log 
 
 [reference](https://coderwall.com/p/euwpig/a-better-git-log)
-```
+```gitconfig
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
 Called like
@@ -26,7 +26,7 @@ General Niceties
 [reference](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 
 _Side Note: the reference is a great book if you're learning Git_
-```
+```git config
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
@@ -43,7 +43,7 @@ called like
 `git st`
 
 Last commit
-```
+```git config
 git config --global alias.last 'log -1 HEAD'
 ```
 called like `git last`
@@ -52,7 +52,7 @@ called like `git last`
 Auto Help 
 
 [reference](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_code_help_autocorrect_code)
-```
+```git config
 git config --global help.autocorrect 20
 ```
 If you mispell checout it will guess checkout and auto run in 2 seconds
