@@ -18,11 +18,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
-      label: "Pages"
-      files: 
-        - file: "content/about.md"
-          label: "About"
-          name: "about"
-          fields: 
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
+    label: "Pages"
+    files: 
+      - file: "content/about.md"
+        label: "About"
+        name: "about"
+        fields: 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
