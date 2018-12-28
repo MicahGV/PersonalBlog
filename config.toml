@@ -3,7 +3,7 @@ title = "VigMic"
 copyright = "Copyright &copy; 2018 - Micah Vigeant"
 canonifyurls = true
 theme = "kiera"
-googleAnalytics = "113319488" #Google Analytics Id
+googleAnalytics = "UA-113319488-1" #Google Analytics Id
 paginate = 3
 
 summaryLength = 30
