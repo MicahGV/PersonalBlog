@@ -32,7 +32,7 @@ git add submodule https://github.com/avianto/hugo-kiera kiera
 * [Hugo Themes with Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify)
 * [Kiera Theme Github](https://github.com/avianto/hugo-kiera)
 
-After you've ran through all of those you should have a site that pretty much looks exactly like this with an admin module too boot. If you want to clone this and just use it as boiler plate or you want to see it for reference here's a link to the [repo](https://github.com/MicahGV/PersonalBlog) that this thing is coming out of.
+After you've ran through all of those you should have a site that pretty much looks exactly like this with an admin module too boot. If you want to clone this and just use it as a boiler plate or you want to see it for reference here's a link to the [repo](https://github.com/MicahGV/PersonalBlog) that this thing is coming out of.
 Also, if you're lazy like me, here's a quick url for you to clone from
 
 https://github.com/MicahGV/PersonalBlog.git
