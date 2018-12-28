@@ -30,6 +30,7 @@ git add submodule https://github.com/avianto/hugo-kiera kiera
 * [Start a blog in 30 minutes with Hugo](https://opensource.com/article/18/3/start-blog-30-minutes-hugo)
 * [Setting up Netlify CMS on Hugo](https://www.ragasirtahk.tk/2018/01/setting-up-netlify-cms-on-hugo/)
 * [Hugo Themes with Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify)
+* [Kiera Theme Github](https://github.com/avianto/hugo-kiera)
 
 After you've ran through all of those you should have a site that pretty much looks exactly like this with an admin too boot. If you want to clone this and just use it as boiler plate or you want to see it for reference here's a link to the [repo](https://github.com/MicahGV/PersonalBlog) that this thing is coming out of.
 Also, if you're lazy like me, here's a quick url for you to clone from
