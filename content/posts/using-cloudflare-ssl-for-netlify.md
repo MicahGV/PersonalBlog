@@ -26,7 +26,7 @@ Here's some quick links for stuff in the article that I used for my own edificat
 * [Cloudflare DNS Netlify Host Article](https://jaketrent.com/post/cloudflare-dns-netlify-host/)
 * [Netlify - SSL CloudFlare Forum question](https://community.cloudflare.com/t/netlify-ssl/19749)
 * [NET::ERR_CERT_AUTHORITY_INVALID](https://community.cloudflare.com/t/ssl-issue-net-err-cert-authority-invalid-works-on-one-domain-but-not-other/12641)
-*  [Differences of Cloudflare SSL Options](https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-Off-Flexible-SSL-Full-SSL-Full-SSL-Strict-mean-)
+* [Differences of Cloudflare SSL Options](https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-Off-Flexible-SSL-Full-SSL-Full-SSL-Strict-mean-)
 
 - - -
 
@@ -44,7 +44,7 @@ First, I'll walk you through all the steps that I did.
 7. Login into Netlify and go to your site, if you aren't there already.
 8. Click Domain Settings and scroll down to HTTPS and select Use Custom Certificate. You'll be presented with something like below
 
-![Netlify Install Custom Certificate Modal](/img/netlifyCert.png#mid)
+![Netlify Install Custom Certificate Modal](/img/netlifycustomcert.png#mid)
 
 9. Insert your PEM Formatted Certificate and Private Key into their appropriate text box
 10. Then open in another tab this [link](https://support.cloudflare.com/hc/en-us/articles/115001186052-What-intermediates-and-roots-are-Cloudflare-issued-certs-signed-against-).
