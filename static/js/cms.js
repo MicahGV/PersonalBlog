@@ -59,7 +59,8 @@ const PagePreview = createClass({
 });
 
 
-CMS.registerPreviewStyle("https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda")
-CMS.registerPreviewStyle("/css/styles.css")
+CMS.registerPreviewStyle("https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda");
+CMS.registerPreviewStyle("/css/styles.css");
+CMS.registerPreviewStyle("/css/baseStyles.css");
 CMS.registerPreviewTemplate("posts", PostPreview);
 CMS.registerPreviewTemplate("pages", PagePreview);
