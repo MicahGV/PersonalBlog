@@ -4,13 +4,13 @@ copyright = "Copyright &copy; 2018 - Micah Vigeant"
 canonifyurls = true
 theme = ["kiera"]
 googleAnalytics = "UA-113319488-1" #Google Analytics Id
+DisqusShortname = "vigmic-site"
 paginate = 3
 
 enableRobotsTXT = true
 summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
-
 [author]
     name = "Micah"
     github = "MicahGV"
