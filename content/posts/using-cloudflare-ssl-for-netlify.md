@@ -13,7 +13,7 @@ categories:
 
 This is an article that will walk you through on how to set up a Cloudflare Full SSL Certificate for Netlify. I wrote this more or less for my future reference, but I thought it might help you, you adorable internet stranger you. 
 
-_Side Note: I'm not going to talk about my opinion on whether you should Cloudflare's or Netlify's DNS, CDN, and SSL Certificate. I'm just going to show you how to set up using cloudflare, you can look at debates else where. _
+_Side Note: I'm not going to talk about my opinion on whether you should Cloudflare's or Netlify's DNS, CDN, and SSL Certificate. I'm just going to show you how to set up using cloudflare, you can look at debates else where._
 
 - - -
 
