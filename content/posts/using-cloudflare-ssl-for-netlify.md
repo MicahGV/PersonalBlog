@@ -8,6 +8,7 @@ tags:
   - SSL
 categories:
   - JAMStack
+  - DevOps
 ---
 ![Cloud Flare SSL Full Settings](/img/FullSettings.png#mid)
 
