@@ -1,5 +1,5 @@
 ---
-title: Using Cloudflare SSL for Netlify
+title: Using Cloudflare SSL for Netlify Hosting
 date: '2018-12-28T20:36:18-06:00'
 draft: false
 tags:
