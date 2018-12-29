@@ -18,3 +18,19 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+#show-comments {
+    background-color: inherit;
+    border: 2px solid #cecece;
+    margin: 4px;
+    float: right;
+    font-size: 16px;
+    transition: 0.2s;
+    font-family: inherit;
+}
+
+#show-comments:hover {
+    background-color: black !important;
+    color: white;
+    border-color: black !important;
+}
