@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,8 +10,58 @@
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.css" />
 
 </head>
+
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.js"></script>
+  
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.buttflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js"></script>
+  <script>
+    import format from "date-fns/format";
+
+export default class PostPreview extends React.Component {
+  render() {
+    const {entry, widgetFor, getAsset} = this.props;
+    let image = getAsset(entry.getIn(["data", "image"]));
+
+    return <div id="container">
+        <article>
+            <h1>{ entry.getIn(["data","title"])}</h1>
+            <aside>
+                <ul>
+                    <li>
+                        <time>{format(entry.getIn(["data", "date"]),"MMM dd, YYYY")}</time>
+                    </li>
+                    <li>
+                        {(entry.getIn(["data","categories"]) || []).map((category, index) => {
+                            <em>
+                                <a>
+                                    {category}
+                                </a>
+                            </em>
+                        })}
+                    </li>
+                    <li>
+                        {(entry.getIn(["data","tags"]) || []).map((tag, index) => {
+                            <em>
+                                <a>
+                                    {tag}
+                                </a>
+                            </em>
+                        })}
+                    </li>
+                    <li>X min read</li>
+                </ul>
+            </aside>
+            {widgetFor("body")}
+        </article>
+    </div>
+  }
+}
+
+    CMS.registerPreviewTemplate("post", PostPreview);
+  </script>
 </body>
+
 </html>
