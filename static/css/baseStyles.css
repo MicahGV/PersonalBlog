@@ -1,3 +1,8 @@
+.canvas-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #container main article p code {
     color: #f8f8f2;
     background-color: #272822;
@@ -34,3 +39,4 @@
     color: white;
     border-color: black !important;
 }
+

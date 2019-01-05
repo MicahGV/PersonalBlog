@@ -1,0 +1,7 @@
+<div class="canvas-div">
+    <canvas id='{{ .Get "canvasId" }}' width='{{ .Get "canvasWidth" }}' height='{{  .Get "canvasHeight" }}' >
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.js"></script>
+    <script src='{{ .Get "src" | relURL}}'></script>
+</div>
