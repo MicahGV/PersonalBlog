@@ -1,9 +1,12 @@
 ---
-title: "How To: Metablobs"
-date:  2019-01-02T00:28:35-06:00
+title: 'How To: Metablobs'
+date: 2019-01-02T06:28:35.000Z
 draft: true
-tags: []
-categories: []
+tags:
+  - Graphics
+  - JS
+categories:
+  - ''
 ---
 
 ---------
