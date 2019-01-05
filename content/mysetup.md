@@ -63,4 +63,4 @@ Auto Correct
 git config --global help.autocorrect 20
 ```
 
-If you mispell checout it will guess checkout and auto run in 2 seconds
+If you misspell checout it will guess checkout and auto run in 2 seconds
