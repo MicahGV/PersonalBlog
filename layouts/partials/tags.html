@@ -1,7 +1,7 @@
 <ul class="all-tags">
     {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
     {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-    <li><a href="{{ .Permalink }}">#{{ $name | humanize }} </a>({{ $taxonomy.Count }})</li>
+    <li><a href="{{ .Permalink }}">#{{ $name }} </a>({{ $taxonomy.Count }})</li>
     {{ end }}
     {{ end }}
 </ul>
