@@ -1,15 +1,25 @@
 ---
-title: "How To: Metablobs"
-date:  2019-01-02T00:28:35-06:00
+title: 'How To: 2D Metaballs'
+date: '2019-01-02T00:28:35-06:00'
 draft: true
+<<<<<<< HEAD
 tags: 
 categories: 
+=======
+tags:
+  - Graphics
+  - JS
+  - Metaballs
+categories:
+  - ''
+>>>>>>> 3c1a7e39dcc79ba7a8ad44f822a6af124af1e0b9
 ---
+- - -
 
----------
 {{<canvas canvasId="blobCanvas" canvasWidth="200" canvasHeight="200" src="js/metablobs.js">}}
 
----------
+- - -
+[metablob.js source](https://github.com/MicahGV/PersonalBlog/blob/master/static/js/metablobs.js)
 
 Here's a quick how to make some neat 2D metaballs.
 
@@ -17,6 +27,7 @@ Also, If you don't know what metaballs are they are a neat old graphics techniqu
 
 Lissajous curve
 
+<<<<<<< HEAD
 I'll first start off discussing what I believe is generally happening within the code then go into specifics.
 If I explain something incorrectly, please leave a comment telling me I am wrong.
 
@@ -90,3 +101,10 @@ const metablob = class {
   }
 };
 ```
+=======
+So, let's start breaking down this code.
+
+```javascript
+
+```
+>>>>>>> 3c1a7e39dcc79ba7a8ad44f822a6af124af1e0b9

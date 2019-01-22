@@ -1,6 +1,6 @@
 ---
 title: What this site was made with
-date: 2018-12-27T23:34:13.000Z
+date: '2018-12-27T17:34:13-06:00'
 draft: false
 tags:
   - Netlify
