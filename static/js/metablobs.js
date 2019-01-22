@@ -2,14 +2,11 @@
 let canvas = document.getElementById("blobCanvas"),
   canvasParent = canvas.parentNode,
   ctx = null,
-  lastTime = performance.now(),
   currentTime = 0,
-  delta = 0,
   width = canvas.width,
-  height = canvas.height;
-
-let [r, g, b] = [1, 1, 1]
-let blobs = [];
+  height = canvas.height,
+  [r, g, b] = [1, 1, 1],
+  blobs = [];
 
 const metablob = class {
   constructor(x = 0, y = 0, speed = 0, color = [0, 0, 0], randoX = Math.random(), randoY = Math.random()) {
@@ -58,17 +55,14 @@ function GUI() {
 }
 
 function render() {
-  // Used for smooth Movement
   currentTime = performance.now();
-  delta = (currentTime - lastTime) / 1000;
   let lastClosestBlob = blobs[0];
 
   moveBlobs();
 
   let frame = getNewFrameData();
   ctx.putImageData(frame, 0, 0);
-  lastTime = currentTime;
-
+  
 
   function getNewFrameData() {
     let frame = ctx.getImageData(0, 0, width, height);
@@ -99,8 +93,7 @@ function render() {
     }
 
     const flooredDistance = Math.floor(
-      options.blobEdgeRange -
-      totalDistance / options.distConstant / Math.pow(10, blobs.length * 2)
+      options.blobEdgeRange - totalDistance / options.distConstant / Math.pow(10, blobs.length * 2)
     );
 
     const clampedDistance = Math.max(Math.min(flooredDistance, 255), 0);
@@ -123,7 +116,6 @@ function render() {
     }
   }
 }
-
 
 function addOrRemoveBlobs(count) {
   if (count < blobs.length) {

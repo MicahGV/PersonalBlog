@@ -20,12 +20,12 @@ const PostPreview = createClass({
                                 h('span', {}, 'Categories: '),
                                 (entry.getIn(["data", "categories"]) || []).map((category, index) => {
                                     return h('em', {},
-                                        h('a', {}, `${category}`)
+                                        h('a', {}, `${category} `)
                                     )
                                 })),
                             h('li', {}, (entry.getIn(["data", "tags"]) || []).map((tag, index) => {
                                 return h('em', {},
-                                    h('a', {}, `#${tag}`)
+                                    h('a', {}, `#${tag} `)
                                 )
                             })),
                             h('li', {}, 'X min Read')

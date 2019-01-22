@@ -1,6 +1,22 @@
+
+.all-tags {
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+    margin-top: 200px
+}
+
+.all-tags > li {
+    padding: 4px;
+    margin-right: 20px;
+}
+
 .canvas-div {
     display: flex;
     justify-content: space-evenly;
+}
+#container {
+    display: block !important;
 }
 
 #container main article p code {
@@ -40,3 +56,8 @@
     border-color: black !important;
 }
 
+@media only screen and (max-width: 700px) {
+    .all-tags {
+        display: none !important;
+    }
+}
