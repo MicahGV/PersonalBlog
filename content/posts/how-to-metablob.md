@@ -1,11 +1,11 @@
 ---
 title: 'How To: 2D Metaballs'
 date: '2019-01-02T00:28:35-06:00'
-draft: false
+draft: true
 tags:
-  - 'Graphics'
-  - 'JS'
-  - 'Metaballs'
+  - Graphics
+  - JS
+  - Metaballs
 categories:
   - ''
 ---
